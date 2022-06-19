@@ -1,0 +1,45 @@
+<!--Programmed by: João Lucas-->
+<!--started in: 20220618 09:00am -->
+<!--Last edit: 20220619 01:34am-->
+<!--version: 1.0-->
+
+<!--code with the objective to put in practice what i know about HTML until now-->
+<!--in the future, i want to centralize the content and validate the information about username and password to advance to the next page.-->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--good practice, fixes some bugs that happen with cedilla and other special characters -->
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Devchallenge 1: Hello world, again. 👋
+    </title>
+    <!-- Feed the metadata too-->
+</head>
+
+<body class="teste bg">
+    <div class="container">
+        <div id="caixa">
+
+            <img class="imagem_1" src="img_logo_cloudfy.png"
+                alt="inf that will appears if the image dont load correctly" title="inf that will appears if you keep the mouse over the image">
+            <!-- align is better explained using css, but i know how to utilize left, right, abs bottom and text top for a while-->
+            <!-- target="_blank" open the link in a new page-->
+            <!-- below, i want to validate the login and password to advance to the next page-->
+
+            <div class="login" id="login_sector">
+                <form>
+                    <input class="user" type="text" placeholder="Login">
+                    <input class="user" type="password" placeholder="Senha">
+                    <a id="forgot_password" href="https://app.cloudfy.net.br/"> Esqueci minha Senha</a> 
+                    <input class="button" type="button" value="Entrar" disabled>
+                </form>
+                <p class="footer">Material de estudo desenvolvido por João Lucas</p>
+                <p class="footer">© 2022 ALL RIGHT RESERVED.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
